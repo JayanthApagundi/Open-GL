@@ -369,7 +369,7 @@ int main (int argc, char** argv) {
   glutInit(&argc, argv);
   glutInitDisplayMode(GLUT_DEPTH | GLUT_RGB | GLUT_DOUBLE);
   glutInitWindowSize(WCX, WCY);
-  glutCreateWindow("Mini-Project");
+  glutCreateWindow("Rain-Fall");
   init();
   glutDisplayFunc(drawScene);
   glutReshapeFunc(reshape);
